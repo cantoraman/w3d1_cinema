@@ -54,6 +54,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Spider-Man: Homecoming', 20
 INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '14:40');
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:00');
 
+UPDATE movies SET show_time='19:25' WHERE title = ('Guardians of the Galaxy 2');
 
-DELETE FROM movies WHERE title = ('Batman Begins');
+
 SELECT * FROM movies;
