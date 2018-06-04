@@ -49,6 +49,35 @@ id |                title                | year | show_time
 (19 rows)
 
 2.  Return ONLY the name column from the 'people' table
+
+SELECT name FROM people;
+
+name            
+---------------------------
+Shaun   Adams
+James   Amos
+Lee     Burgess
+Stuart  Charters
+Wil     Cornish
+Gregor  Cox
+Chris   Craig
+Gabriel González Villalba
+James   Henderson
+Edward  Kinley
+Magdalena       Kisala
+Emily Milne
+Iona    Macbeth
+Gary    Muir
+Helen   Oshea
+David   Pears
+Jezuz   Perez
+Benjamin        Robinson
+Stephen Rooney
+Can     Toraman
+Daniel  Warren
+(21 rows)
+
+
 3.  Oops! Someone at CodeClan spelled Jesus's name wrong! Change it to reflect the proper spelling ('Jezuz Perez' should be 'Jesus Perez').
 4.  Return ONLY your name from the 'people' table.
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.

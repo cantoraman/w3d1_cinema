@@ -11,7 +11,8 @@ CREATE TABLE movies (
 CREATE TABLE people (
 	id SERIAL8 PRIMARY KEY,
 	name VARCHAR(255)
-);INSERT INTO people (name) VALUES ('Shaun	Adams');
+);
+INSERT INTO people (name) VALUES ('Shaun	Adams');
 INSERT INTO people (name) VALUES ('James	Amos');
 INSERT INTO people (name) VALUES ('Lee	Burgess');
 INSERT INTO people (name) VALUES ('Stuart	Charters');
@@ -54,4 +55,5 @@ INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '14:
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:00');
 
 
-SELECT * FROM movies;
+UPDATE people SET name = ('Jesus Perez') WHERE name = ('Jezuz	Perez');
+SELECT name FROM people;
